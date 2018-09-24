@@ -1,0 +1,95 @@
+/* Global */
+
+html body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Animated Gradient */
+
+body {
+    background: linear-gradient(271deg, #63c741, #f9feff, #d2b350, #58c4eb);
+    background-size: 1600% 1600%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 51%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 51%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 51%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+/* Custom CSS */
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: #1a1a1acb;
+}
+
+.modal-content {
+    border-radius: 10px;
+    border: 12px solid deeppink;
+    margin: 20% auto;
+    background-color: #f9feff;
+    padding: 50px;
+    width: 30%;
+    box-shadow: #1a1a1a;
+}
+
+.modal-header {
+    padding: 0.025px;
+    font-size: 20px;
+    color: #1a1a1a;
+}
+
+.modal-btn {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    color: white;
+}
+
+i {
+    color: #1a1a1a;
+}
