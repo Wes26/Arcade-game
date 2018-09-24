@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous"> ￼
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="title">Classic Arcade Game</h1>
+        <p id="intro">Make it to the water and win the game!</p>
+        <p id="controls">
+            <!-- font awesome icons -->
+            <p>Movement key:</p>
+            <span>
+                <i class="fas fa-arrow-circle-left"></i>
+            </span>
+            <span>
+                <i class="fas fa-arrow-circle-up"></i>
+            </span>
+            <span>
+                <i class="fas fa-arrow-circle-down"></i>
+            </span>
+            <span>
+                <i class="fas fa-arrow-circle-right"></i>
+            </span>
+        </p>
+    </div>
+    <!-- modal pops up when you hit the water -->
+    <div id="modal" class="animated bounce">
+        <div class="modal-content">
+            <header class="modal-header">
+                <h1>You Are A Winner!</h1>
+            </header>
+            <button id="btn" class="modal-btn">Play Again!</button>
+        </div>
+    </div>
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+
+</html>
